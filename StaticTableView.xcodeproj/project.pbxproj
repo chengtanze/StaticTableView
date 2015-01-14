@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3CADBF1A64F35D00C47938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CADBE1A64F35D00C47938 /* main.m */; };
+		FC3CADC21A64F35E00C47938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CADC11A64F35E00C47938 /* AppDelegate.m */; };
+		FC3CADC51A64F35E00C47938 /* StaticTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3CADC31A64F35E00C47938 /* StaticTableView.xcdatamodeld */; };
+		FC3CADC81A64F35E00C47938 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CADC71A64F35E00C47938 /* ViewController.m */; };
+		FC3CADCB1A64F35E00C47938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3CADC91A64F35E00C47938 /* Main.storyboard */; };
+		FC3CADCD1A64F35E00C47938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3CADCC1A64F35E00C47938 /* Images.xcassets */; };
+		FC3CADD01A64F35E00C47938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3CADCE1A64F35E00C47938 /* LaunchScreen.xib */; };
+		FC3CADDC1A64F35E00C47938 /* StaticTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CADDB1A64F35E00C47938 /* StaticTableViewTests.m */; };
+		FC3CADE61A64F5DC00C47938 /* 5-3SMART-BOX-我_个人信息.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3CADE51A64F5DC00C47938 /* 5-3SMART-BOX-我_个人信息.png */; };
+		FC3FEEA21A664CF90075FA64 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FEEA11A664CF90075FA64 /* ModelViewController.m */; };
+		FC3FEEA51A6655950075FA64 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FEEA41A6655950075FA64 /* InfoTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3CADD61A64F35E00C47938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3CADB11A64F35D00C47938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3CADB81A64F35D00C47938;
+			remoteInfo = StaticTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3CADB91A64F35D00C47938 /* StaticTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3CADBD1A64F35D00C47938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3CADBE1A64F35D00C47938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3CADC01A64F35D00C47938 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC3CADC11A64F35E00C47938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC3CADC41A64F35E00C47938 /* StaticTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaticTableView.xcdatamodel; sourceTree = "<group>"; };
+		FC3CADC61A64F35E00C47938 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC3CADC71A64F35E00C47938 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC3CADCA1A64F35E00C47938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3CADCC1A64F35E00C47938 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC3CADCF1A64F35E00C47938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC3CADD51A64F35E00C47938 /* StaticTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3CADDA1A64F35E00C47938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3CADDB1A64F35E00C47938 /* StaticTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticTableViewTests.m; sourceTree = "<group>"; };
+		FC3CADE51A64F5DC00C47938 /* 5-3SMART-BOX-我_个人信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-3SMART-BOX-我_个人信息.png"; sourceTree = "<group>"; };
+		FC3FEEA01A664CF90075FA64 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		FC3FEEA11A664CF90075FA64 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		FC3FEEA31A6655950075FA64 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		FC3FEEA41A6655950075FA64 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3CADB61A64F35D00C47938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3CADD21A64F35E00C47938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3CADB01A64F35D00C47938 = {
+			isa = PBXGroup;
+			children = (
+				FC3FEEA31A6655950075FA64 /* InfoTableViewController.h */,
+				FC3FEEA41A6655950075FA64 /* InfoTableViewController.m */,
+				FC3CADBB1A64F35D00C47938 /* StaticTableView */,
+				FC3CADD81A64F35E00C47938 /* StaticTableViewTests */,
+				FC3CADBA1A64F35D00C47938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3CADBA1A64F35D00C47938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CADB91A64F35D00C47938 /* StaticTableView.app */,
+				FC3CADD51A64F35E00C47938 /* StaticTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3CADBB1A64F35D00C47938 /* StaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CADC01A64F35D00C47938 /* AppDelegate.h */,
+				FC3CADC11A64F35E00C47938 /* AppDelegate.m */,
+				FC3CADC61A64F35E00C47938 /* ViewController.h */,
+				FC3CADC71A64F35E00C47938 /* ViewController.m */,
+				FC3CADC91A64F35E00C47938 /* Main.storyboard */,
+				FC3CADCC1A64F35E00C47938 /* Images.xcassets */,
+				FC3CADCE1A64F35E00C47938 /* LaunchScreen.xib */,
+				FC3CADC31A64F35E00C47938 /* StaticTableView.xcdatamodeld */,
+				FC3CADBC1A64F35D00C47938 /* Supporting Files */,
+				FC3FEEA01A664CF90075FA64 /* ModelViewController.h */,
+				FC3FEEA11A664CF90075FA64 /* ModelViewController.m */,
+			);
+			path = StaticTableView;
+			sourceTree = "<group>";
+		};
+		FC3CADBC1A64F35D00C47938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CADE51A64F5DC00C47938 /* 5-3SMART-BOX-我_个人信息.png */,
+				FC3CADBD1A64F35D00C47938 /* Info.plist */,
+				FC3CADBE1A64F35D00C47938 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC3CADD81A64F35E00C47938 /* StaticTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CADDB1A64F35E00C47938 /* StaticTableViewTests.m */,
+				FC3CADD91A64F35E00C47938 /* Supporting Files */,
+			);
+			path = StaticTableViewTests;
+			sourceTree = "<group>";
+		};
+		FC3CADD91A64F35E00C47938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CADDA1A64F35E00C47938 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3CADB81A64F35D00C47938 /* StaticTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3CADDF1A64F35E00C47938 /* Build configuration list for PBXNativeTarget "StaticTableView" */;
+			buildPhases = (
+				FC3CADB51A64F35D00C47938 /* Sources */,
+				FC3CADB61A64F35D00C47938 /* Frameworks */,
+				FC3CADB71A64F35D00C47938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticTableView;
+			productName = StaticTableView;
+			productReference = FC3CADB91A64F35D00C47938 /* StaticTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3CADD41A64F35E00C47938 /* StaticTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3CADE21A64F35E00C47938 /* Build configuration list for PBXNativeTarget "StaticTableViewTests" */;
+			buildPhases = (
+				FC3CADD11A64F35E00C47938 /* Sources */,
+				FC3CADD21A64F35E00C47938 /* Frameworks */,
+				FC3CADD31A64F35E00C47938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3CADD71A64F35E00C47938 /* PBXTargetDependency */,
+			);
+			name = StaticTableViewTests;
+			productName = StaticTableViewTests;
+			productReference = FC3CADD51A64F35E00C47938 /* StaticTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3CADB11A64F35D00C47938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "chengtz-iMac";
+				TargetAttributes = {
+					FC3CADB81A64F35D00C47938 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FC3CADD41A64F35E00C47938 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FC3CADB81A64F35D00C47938;
+					};
+				};
+			};
+			buildConfigurationList = FC3CADB41A64F35D00C47938 /* Build configuration list for PBXProject "StaticTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3CADB01A64F35D00C47938;
+			productRefGroup = FC3CADBA1A64F35D00C47938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3CADB81A64F35D00C47938 /* StaticTableView */,
+				FC3CADD41A64F35E00C47938 /* StaticTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3CADB71A64F35D00C47938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3CADCB1A64F35E00C47938 /* Main.storyboard in Resources */,
+				FC3CADE61A64F5DC00C47938 /* 5-3SMART-BOX-我_个人信息.png in Resources */,
+				FC3CADD01A64F35E00C47938 /* LaunchScreen.xib in Resources */,
+				FC3CADCD1A64F35E00C47938 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3CADD31A64F35E00C47938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3CADB51A64F35D00C47938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3CADC21A64F35E00C47938 /* AppDelegate.m in Sources */,
+				FC3FEEA21A664CF90075FA64 /* ModelViewController.m in Sources */,
+				FC3CADC51A64F35E00C47938 /* StaticTableView.xcdatamodeld in Sources */,
+				FC3CADC81A64F35E00C47938 /* ViewController.m in Sources */,
+				FC3CADBF1A64F35D00C47938 /* main.m in Sources */,
+				FC3FEEA51A6655950075FA64 /* InfoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3CADD11A64F35E00C47938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3CADDC1A64F35E00C47938 /* StaticTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3CADD71A64F35E00C47938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3CADB81A64F35D00C47938 /* StaticTableView */;
+			targetProxy = FC3CADD61A64F35E00C47938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3CADC91A64F35E00C47938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3CADCA1A64F35E00C47938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3CADCE1A64F35E00C47938 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3CADCF1A64F35E00C47938 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3CADDD1A64F35E00C47938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3CADDE1A64F35E00C47938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3CADE01A64F35E00C47938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StaticTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC3CADE11A64F35E00C47938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StaticTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC3CADE31A64F35E00C47938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StaticTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaticTableView.app/StaticTableView";
+			};
+			name = Debug;
+		};
+		FC3CADE41A64F35E00C47938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StaticTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaticTableView.app/StaticTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3CADB41A64F35D00C47938 /* Build configuration list for PBXProject "StaticTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3CADDD1A64F35E00C47938 /* Debug */,
+				FC3CADDE1A64F35E00C47938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3CADDF1A64F35E00C47938 /* Build configuration list for PBXNativeTarget "StaticTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3CADE01A64F35E00C47938 /* Debug */,
+				FC3CADE11A64F35E00C47938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3CADE21A64F35E00C47938 /* Build configuration list for PBXNativeTarget "StaticTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3CADE31A64F35E00C47938 /* Debug */,
+				FC3CADE41A64F35E00C47938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3CADC31A64F35E00C47938 /* StaticTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3CADC41A64F35E00C47938 /* StaticTableView.xcdatamodel */,
+			);
+			currentVersion = FC3CADC41A64F35E00C47938 /* StaticTableView.xcdatamodel */;
+			path = StaticTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC3CADB11A64F35D00C47938 /* Project object */;
+}
