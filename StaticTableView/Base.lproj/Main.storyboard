@@ -101,7 +101,7 @@
                             </tableViewSection>
                             <tableViewSection id="lAv-Sb-jVt">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="WT2-5b-C36" detailTextLabel="LMj-Xe-QZW" rowHeight="49" style="IBUITableViewCellStyleValue1" id="WiZ-gY-biH">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" textLabel="WT2-5b-C36" detailTextLabel="LMj-Xe-QZW" rowHeight="49" style="IBUITableViewCellStyleValue1" id="WiZ-gY-biH">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WiZ-gY-biH" id="axJ-oK-Yma">
                                             <autoresizingMask key="autoresizingMask"/>
